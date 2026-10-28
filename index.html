@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Playable Piano | Ajmal Abdulrahimzai</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- JS -->
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <div class="title-row">
+        <h2>🎹 Playable Piano</h2>
+        <button id="fullscreenBtn" class="fullscreen-btn" type="button" aria-label="Enter fullscreen landscape mode">
+          <i class="fas fa-expand"></i> Fullscreen
+        </button>
+      </div>
+
+      <div class="controls">
+        <div class="column volume-slider">
+          <span>🔊 Volume</span>
+          <input type="range" min="0" max="1" value="0.5" step="any">
+        </div>
+
+        <div class="column keys-checkbox">
+          <span>Show Keys</span>
+          <input type="checkbox" checked>
+        </div>
+      </div>
+    </header>
+
+    <ul class="piano-keys">
+      <li class="key white" data-key="a"><span>a</span></li>
+      <li class="key black" data-key="w"><span>w</span></li>
+      <li class="key white" data-key="s"><span>s</span></li>
+      <li class="key black" data-key="e"><span>e</span></li>
+      <li class="key white" data-key="d"><span>d</span></li>
+      <li class="key white" data-key="f"><span>f</span></li>
+      <li class="key black" data-key="t"><span>t</span></li>
+      <li class="key white" data-key="g"><span>g</span></li>
+      <li class="key black" data-key="y"><span>y</span></li>
+      <li class="key white" data-key="h"><span>h</span></li>
+      <li class="key black" data-key="u"><span>u</span></li>
+      <li class="key white" data-key="j"><span>j</span></li>
+      <li class="key white" data-key="k"><span>k</span></li>
+      <li class="key black" data-key="o"><span>o</span></li>
+      <li class="key white" data-key="l"><span>l</span></li>
+      <li class="key black" data-key="p"><span>p</span></li>
+      <li class="key white" data-key=";"><span>;</span></li>
+    </ul>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Developed &amp; Designed by <strong>Ajmal Abdulrahimzai</strong></p>
+    <ul class="social-icons" aria-label="Social media links">
+      <li><a class="social-link facebook" href="https://www.facebook.com/ajmal.abdulrahimzai.1" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a class="social-link x-twitter" href="https://x.com/Ajmal_raheemzai" target="_blank" rel="noopener noreferrer" aria-label="X"><i class="fab fa-x-twitter"></i></a></li>
+      <li><a class="social-link linkedin" href="https://www.linkedin.com/in/ajmal-abdulrahimzai-9b59002a3" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+      <li><a class="social-link github" href="https://github.com/ajmalraheemzai-ops?tab=repositories" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+      <li><a class="social-link instagram" href="https://www.instagram.com/ajmal_abdulrahimzai" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+      <li><a class="social-link tiktok" href="https://www.tiktok.com/@ajmal_abdulrahimzai" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fab fa-tiktok"></i></a></li>
+      <li><a class="social-link email" href="mailto:ajmal.abdulrahimzai123@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a></li>
+      <li><a class="social-link telegram" href="https://t.me/Ajmal_abdulrahimzai" target="_blank" rel="noopener noreferrer" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a></li>
+    </ul>
+  </footer>
+
+</body>
+</html>
